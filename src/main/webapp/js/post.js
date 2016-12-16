@@ -1,5 +1,5 @@
 $(document).ready(function() {
 
-	$('#posts').load('/springmvc-mongodb-example/posts').hide().fadeIn(400);
+	$('#posts').load('/study-webapp/posts').hide().fadeIn(400);
 	
 });

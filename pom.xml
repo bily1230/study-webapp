@@ -86,11 +86,11 @@
 			<version>${org.aspectj-version}</version>
 		</dependency>
 		<!-- Hibernate -->
-		<dependency>
+	     <dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
+			<version>3.6.10.Final</version>
+		</dependency> 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
@@ -201,7 +201,7 @@
 
 	</dependencies>
 
-	<artifactId>springmvc-mongodb-example</artifactId>
+	<artifactId>study-webapp</artifactId>
 	<build>
 		<plugins>
 			<plugin>

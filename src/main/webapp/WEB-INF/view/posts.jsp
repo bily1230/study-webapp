@@ -16,7 +16,7 @@
 					$("#refreshButton${p.index}").click(
 							function() {
 								$('#posts').load(
-										'/springmvc-mongodb-example/posts')
+										'/study-webapp/posts')
 										.hide().fadeIn(400);
 							});
 				});
