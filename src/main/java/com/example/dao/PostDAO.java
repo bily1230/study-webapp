@@ -24,25 +24,26 @@ public class PostDAO {
 	
 	public void deletePost(Post post) {
 		mongoTemplate.remove(post);
+		
 	}
 
 	public List<Post> getAllPosts() {
-		//new mongodb query
+		
 		Query query = new Query();
-		//sort by date
+		
 		query.with(new Sort(Sort.Direction.DESC,"date"));
-		//run query
+		
 		ArrayList<Post> allPostList = (ArrayList<Post>) mongoTemplate
 				.find(query, (Post.class));
 		return allPostList;
 	}
 	
 	public List<Post> getAllUsersPosts(String user) {
-		//find post by user
+		
 		Query query = new Query(Criteria.where("user").is(user));	
-		//sort by date
+		
 		query.with(new Sort(Sort.Direction.DESC,"date"));
-		//run query
+		
 		ArrayList<Post> allPostList = (ArrayList<Post>) mongoTemplate
 				.find(query, (Post.class));
 		return allPostList;

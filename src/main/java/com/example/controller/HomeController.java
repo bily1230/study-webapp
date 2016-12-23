@@ -28,7 +28,7 @@ public class HomeController {
 		this.postBO = postBO;
 	}
 
-	// Homepage returns lists of messages
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Model model) {
 		logger.info("Home page requested");
