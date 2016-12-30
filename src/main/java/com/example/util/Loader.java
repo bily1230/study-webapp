@@ -22,7 +22,7 @@ public class Loader {
 	@PostConstruct
 	void initBean(){
 		Post post = new Post();
-		post.setText("新的一年11");
+		post.setText("新的一年11000000");
 		post.setUser("超级管理员11");
 		postBo.savePost(post);
 		System.out.println("11");
