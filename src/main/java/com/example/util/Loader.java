@@ -25,7 +25,7 @@ public class Loader {
 
 		post.setUser("超级管理员11ppppp");
 
-		post.setText("新的一年11000000");
+		post.setText("新的一年11000000"); //我是一个好孩子!好啊好孩子^^^大家都很快的生活
 		
 
 		postBo.savePost(post);
