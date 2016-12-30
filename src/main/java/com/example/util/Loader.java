@@ -23,7 +23,7 @@ public class Loader {
 	void initBean(){
 		Post post = new Post();
 
-		post.setUser("超级管理员11ppppp");
+		post.setUser("超级管理员11ppppp");//万岁
 
 		post.setText("新的一年11000000");
 		
